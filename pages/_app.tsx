@@ -1,11 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Head from "next/head";
-import {
-  createMuiTheme,
-  MuiThemeProvider,
-  ThemeProvider,
-} from "@material-ui/core/styles";
+import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 
 const theme = createMuiTheme({

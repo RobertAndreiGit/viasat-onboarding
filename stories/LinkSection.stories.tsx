@@ -1,6 +1,5 @@
 import React from "react";
 import { Story, Meta } from "@storybook/react";
-import { Box, Link } from "@material-ui/core";
 import LinkSection from "../src/components/LinkSection";
 
 export default {
