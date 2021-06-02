@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Button, makeStyles, withStyles } from "@material-ui/core";
+import { Button, makeStyles, withStyles } from "@material-ui/core";
 
 const StyledButtonHOC = withStyles({
   root: {

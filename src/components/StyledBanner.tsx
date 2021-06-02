@@ -1,6 +1,6 @@
 import React from "react";
 
-const StyledBanner = (props: any) => {
+const StyledBanner = () => {
   return <img src="./assets/LoginBanner.png" height="auto" width="100%" />;
 };
 
