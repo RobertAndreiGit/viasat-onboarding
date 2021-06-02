@@ -17,7 +17,7 @@ const useStyles = makeStyles({
 const StyledBanner = () => {
   const classes = useStyles();
   return (
-    <Box>
+    <Box position="relative">
       <img
         src="./assets/LoginBanner.png"
         height="auto"
