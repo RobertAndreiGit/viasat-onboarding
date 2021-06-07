@@ -1,11 +1,12 @@
 import React from "react";
 import { Story, Meta } from "@storybook/react";
 import AccountCircleOutlinedIcon from "@material-ui/icons/AccountCircleOutlined";
+
 import StyledButton from "../src/components/StyledButton";
 
 export default {
   component: StyledButton,
-  title: "Reuseabble/Buttons/Primary",
+  title: "Reusable/Buttons/Primary",
 } as Meta;
 
 const Template: Story = (args) => {

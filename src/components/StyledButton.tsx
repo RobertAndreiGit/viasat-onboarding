@@ -3,25 +3,28 @@ import { Button, makeStyles, withStyles } from "@material-ui/core";
 
 const StyledButtonHOC = withStyles({
   root: {
-    borderRadius: 40,
-    maxWidth: 328,
-    width: "100%",
-    fontSize: 14,
-    padding: 11,
     margin: 0,
+    padding: 11,
+    fontSize: 14,
+    width: "100%",
+    maxWidth: 328,
+    borderRadius: 40,
     fontWeight: 700,
   },
 })(Button);
 
 const useStyles = makeStyles({
   primary: {
-    backgroundColor: "#04819E",
     color: "white",
+    backgroundColor: "#04819E",
+    "&:hover": {
+      backgroundColor: "#04819E",
+    },
   },
   secondary: {
-    backgroundColor: "white",
     color: "#465967",
-    border: "1px solid #04819E",
+    backgroundColor: "white",
+    border: "1px solid #465967",
   },
 });
 

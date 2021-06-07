@@ -1,11 +1,12 @@
 import React from "react";
 import { Story, Meta } from "@storybook/react";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
+
 import StyledButton from "../src/components/StyledButton";
 
 export default {
   component: StyledButton,
-  title: "Reuseabble/Buttons/Secondary",
+  title: "Reusable/Buttons/Secondary",
 } as Meta;
 
 const Template: Story = (args) => {

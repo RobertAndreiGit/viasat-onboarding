@@ -1,10 +1,11 @@
 import React from "react";
 import { Story, Meta } from "@storybook/react";
+
 import LinkSection from "../src/components/LinkSection";
 
 export default {
   component: LinkSection,
-  title: "Reuseabble/LinkSection",
+  title: "Reusable/LinkSection",
 } as Meta;
 
 const Template: Story = (args) => {

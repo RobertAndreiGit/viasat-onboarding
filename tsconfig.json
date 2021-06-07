@@ -13,19 +13,11 @@
     "strict": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "isolatedModules": true
   },
-  "include": [
-    "**/*"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["**/*", "src/custom/d.ts"],
+  "exclude": ["node_modules"]
 }
